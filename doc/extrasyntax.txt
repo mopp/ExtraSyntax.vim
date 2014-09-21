@@ -1,0 +1,46 @@
+*mopbuf.txt*
+
+Author:  Mopp
+Licence: NYSL
+Version: 0.1
+
+
+==============================================================================
+CONTENTS                                    *ExtraSyntax-contents*
+    Introduction                            |ExtraSyntax-introduction|
+        Install                             |ExtraSyntax-install|
+    Options                                 |ExtraSyntax-options|
+
+
+==============================================================================
+INTRODUCTION                                *ExtraSyntax-introduction*
+    This plugin appends some keyword to syntax of 'Todo'.
+    I would like to highlight some keyword like 'FIXME', 'XXX', 'TODO'.
+    For example, c syntax NOT highlighting 'NOTE' keyword like those.
+    You can append 'NOTE' using this plugin.
+    This is developed in Github(https://github.com/mopp/ExtraSyntax.git).
+
+
+------------------------------------------------------------------------------
+INSTALL                                     *ExtraSyntax-install*
+    Install the distributed files into your Vim script directory which is
+    usually $HOME/.vim. you can use Neobundle below >
+        NeoBundle 'mopp/ExtraSyntax.vim'
+<
+
+==============================================================================
+OPTIONS                                     *mopbuf-options*
+    These oprions changes Plugin behavior.
+    If you would like to change behavior, You add or change value in your
+    vimrc.
+
+g:extra_syntax_append_words                 *g:extra_syntax_append_words*
+        Type : List
+        This contains only string for adding syntax keyword of Todo.
+
+        Default Value is [ 'NOTE', 'XXX', 'FIXME', 'TODO', 'MEMO'].
+
+
+==============================================================================
+
+vim:ts=4:ft=help:norl:
