@@ -1,4 +1,4 @@
-*mopbuf.txt*
+*extrasyntax.txt*
 
 Author:  Mopp
 Licence: NYSL
@@ -29,7 +29,7 @@ INSTALL                                     *ExtraSyntax-install*
 <
 
 ==============================================================================
-OPTIONS                                     *mopbuf-options*
+OPTIONS                                     *extrasyntax-options*
     These oprions changes Plugin behavior.
     If you would like to change behavior, You add or change value in your
     vimrc.
